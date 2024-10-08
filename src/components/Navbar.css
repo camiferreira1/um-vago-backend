@@ -1,0 +1,21 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    /* Posiciona el navbar de manera absoluta */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    /* Asegúrate de que esté por encima del fondo */
+}
+
+.navbar img {
+    height: 40px;
+    /* Ajusta la altura del logo */
+}

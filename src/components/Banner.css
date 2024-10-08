@@ -1,0 +1,22 @@
+/* src/components/Banner.css */
+.banner {
+    z-index: 3;
+    color: white;
+    text-align: left;
+    margin-right: 10rem;
+    /* Ajusta según tus necesidades */
+}
+
+.banner .title {
+    font-size: 7rem;
+    /* Aumenta el tamaño del texto del banner */
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner .tagline {
+    font-size: 2rem;
+    /* Aumenta el tamaño del subtítulo */
+    margin-top: 0.5rem;
+}
