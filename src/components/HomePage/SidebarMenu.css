@@ -1,0 +1,23 @@
+/* SidebarMenu.css */
+
+.sidebar-menu {
+    padding: 20px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sidebar-item:hover {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.sidebar-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}

@@ -39,7 +39,7 @@ const LoginForm = () => {
 
     return (
         <div className="login-form">
-            <h2>Login</h2>
+            <h2>Inicio Sesion</h2>
             <input
                 type="text"
                 placeholder="Username"
@@ -52,7 +52,7 @@ const LoginForm = () => {
                 value={password}
                 onChange={handlePasswordChange}
             />
-            <button onClick={handleLogin}>Login</button>
+            <button onClick={handleLogin}>Iniciar Sesion</button>
             <div className="links">
                 <a href="#">Forgot Password</a>
                 <Link to="/register">Registrarse aquí</Link> {/* Navega a la página de registro */}

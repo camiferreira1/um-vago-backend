@@ -1,0 +1,39 @@
+/* Estilos para el contenedor principal de la página de publicación */
+.login-page {
+    position: relative;
+    height: 100vh;
+    /* Ocupa toda la altura de la ventana */
+    background-color: #030304;
+    /* Color de fondo claro */
+    overflow: hidden;
+    /* Evitar el desbordamiento */
+}
+
+/* Imagen de fondo */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Cambia esta ruta a tu imagen de fondo */
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    z-index: 1;
+    /* Asegúrate de que esté detrás de otros elementos */
+}
+
+/* Superposición de color para oscurecer la imagen de fondo */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Superposición negra semi-transparente */
+    z-index: 2;
+    /* Encima de la imagen de fondo */
+}

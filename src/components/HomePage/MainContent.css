@@ -1,0 +1,109 @@
+.main-content {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    padding: 30px;
+    padding-top: 60px;
+    flex-grow: 1;
+    overflow-y: auto;
+    font-family: 'Arial', sans-serif;
+    /* Añade margen suficiente para que el contenido quede visible */
+}
+
+
+
+.main-content h2 {
+    font-size: 28px;
+    /* Tamaño del texto */
+    color: #e0e0e0;
+    /* Color del texto */
+    font-weight: bold;
+    /* Peso de la fuente */
+    border-bottom: 2px solid #444;
+    /* Línea debajo del título */
+    padding-bottom: 10px;
+    /* Espacio debajo del texto */
+    margin-bottom: 20px;
+    /* Espacio debajo del título */
+    text-align: left;
+    /* Alinear a la izquierda */
+}
+
+.post-list {
+    background-color: #2a2a2a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.responses {
+    margin-top: 35px;
+}
+
+.responses h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #fff;
+    resize: none;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1c7ed6;
+}
+
+.like-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+    background-color: #444;
+}
+
+.like-button.liked {
+    background-color: #1e90ff;
+}
+
+.like-count {
+    font-size: 16px;
+    margin-left: 5px;
+    color: #ccc;
+}
+
+.response-count {
+    font-size: 16px;
+    color: #ccc;
+    margin-left: 15px;
+}

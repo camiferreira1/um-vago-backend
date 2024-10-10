@@ -1,0 +1,111 @@
+body {
+    background-color: #000;
+    /* Fondo negro */
+    color: #fff;
+    /* Texto blanco por defecto */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.post-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    /* Línea un poco más clara que el fondo */
+    width: 100%;
+    background-color: #1a1a1a;
+    /* Fondo gris oscuro para contraste */
+    border-radius: 8px;
+}
+
+.post-header {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.post-user {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    /* Texto blanco para el usuario */
+    text-align: left;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+    /* Título en blanco */
+    text-align: left;
+}
+
+.post-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    /* Descripción en blanco */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.post-image {
+    margin-bottom: 20px;
+}
+
+.post-image img {
+    width: 200px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.like-button {
+    background-color: transparent;
+    color: #fff;
+    /* Texto del botón en blanco */
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.like-button:hover {
+    color: #ccc;
+    /* Cambio de color al pasar el mouse por encima (gris claro) */
+}
+
+.like-button:disabled {
+    color: #777;
+    /* Botón deshabilitado en gris claro */
+}
+
+.like-button.liked {
+    color: #fff;
+    /* Mantener el botón "liked" en blanco */
+}
+
+.like-button:focus {
+    outline: none;
+}
+
+.like-count,
+.response-count {
+    font-size: 16px;
+    color: #fff;
+    /* Contadores en blanco */
+    font-weight: semi-bold;
+}
+
+/* Estilos especiales para los posts de respuesta */
+.response {
+    margin-left: 40px;
+    background-color: #1a1a1a;
+    /* Fondo ligeramente más oscuro para distinguir las respuestas */
+    border-left: 3px solid #636363;
+    /* Bordes blancos para resaltar que es una respuesta */
+}

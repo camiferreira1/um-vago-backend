@@ -1,0 +1,110 @@
+/* Fondo blanco y texto negro para todo el formulario */
+.publicar-container {
+    background-color: #ffffff;
+    /* Fondo blanco */
+    color: #000000;
+    /* Texto negro */
+    padding: 40px;
+    width: 800px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el título de la sección */
+.publicar-header {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    /* Texto negro */
+}
+
+/* Ajustes para las etiquetas y campos de entrada */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.publicar-label {
+    flex-basis: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 1px;
+    text-align: left;
+    /* Asegurar alineación a la izquierda */
+}
+
+
+.input-field,
+.textarea-field {
+    flex-basis: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150%;
+    transition: border-color 0.3s ease;
+    color: #000000;
+    /* Texto negro */
+    background-color: #ffffff;
+    /* Fondo blanco */
+}
+
+
+.textarea-field {
+    flex-basis: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    height: 200px;
+    /* Aumentar la altura para que sea más grande */
+    resize: vertical;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+    border-color: #000000;
+    /* Borde negro al enfocar */
+}
+
+.publicar-button {
+    margin-top: 25px;
+    padding: 12px 50px;
+    /* Hacer más ancho el botón */
+    background-color: #000;
+    /* Mantener el color negro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    /* Para que no ocupe todo el ancho */
+    width: auto;
+    /* Asegurarse de que no sea 100% del contenedor */
+    float: right;
+    /* Mover el botón a la izquierda */
+}
+
+.publicar-button:hover {
+    background-color: #333;
+    /* Un tono más oscuro al pasar el mouse */
+}
+
+
+/* Línea separadora entre la subida de archivo y las categorías */
+.separator-line {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}

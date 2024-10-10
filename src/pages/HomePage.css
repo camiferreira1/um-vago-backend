@@ -1,0 +1,20 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-layout {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+}
+
+.sidebar {
+    width: 250px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}

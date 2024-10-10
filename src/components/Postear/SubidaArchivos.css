@@ -1,0 +1,155 @@
+/* Ocultar el input[type="file"] real */
+.hidden-file-input {
+  display: none;
+}
+
+/* Botón personalizado para subir archivo */
+.custom-upload-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.custom-upload-button:hover {
+  background-color: #333;
+}
+
+/* Estilo para la fila que agrupa Insertar Archivo y Título de Archivo */
+.file-upload-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+
+
+
+.file-upload-row>div {
+  margin-right: 30px;
+}
+
+.file-upload-row>div:last-child {
+  margin-right: 0;
+}
+
+
+.subida-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 10x;
+}
+
+
+.file-name-container {
+  display: flex;
+  align-items: center;
+
+  /* Centra verticalmente el ícono y el nombre del archivo */
+}
+
+.file-icon {
+  width: 24px;
+  /* Ajusta el tamaño del ícono según tus necesidades */
+  height: 24px;
+  /* Mantén la relación de aspecto del ícono */
+  margin-right: 8px;
+  /* Espacio entre el ícono y el nombre del archivo */
+}
+
+.name-file {
+  font-size: 14px;
+  /* Ajusta el tamaño del texto según tus necesidades */
+  color: #333;
+  /* Color del texto */
+}
+
+
+.file-name-field {
+  padding: 35px 0px;
+}
+
+.subida-input {
+  margin-top: 5px;
+  padding: 9px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 12px;
+  transition: border-color 0.3s ease;
+}
+
+.subida-input:focus {
+  border-color: #0b0b0b;
+  outline: none;
+}
+
+
+
+/* Estilo para las etiquetas de categorías */
+.categorias-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subida-label-tag {
+  background-color: #f0f0f0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  /* Más pequeñas */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.subida-label-tag.selected {
+  background-color: #000000;
+  color: white;
+}
+
+.subida-label-tag:hover {
+  background-color: #e0e0e0;
+}
+
+.subida-input-select {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 20px;
+  background: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  width: auto;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  float: left;
+  appearance: none;
+}
+
+.subida-input-select:hover {
+  background: #f0f0f0;
+}
+
+.subida-input-select:focus {
+  outline: none;
+  box-shadow: none;
+  background: #f0f0f0;
+}
+
+.subida-input-select option {
+  padding: 10px;
+}
+
+.subida-label-container {
+  margin-top: 15px;
+}

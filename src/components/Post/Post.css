@@ -1,0 +1,90 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.post-container {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
+
+.post-header {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.post-user {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+    text-align: left;
+}
+
+.post-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #919191;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.post-image {
+    margin-bottom: 20px;
+}
+
+.post-image img {
+    width: 200px
+}
+
+.post-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.like-button {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.like-button:hover {
+    color: #ff9900;
+    /* Cambio de color cuando el mouse está sobre el botón */
+}
+
+.like-button:disabled {
+    color: #555;
+}
+
+.like-button.liked {
+    color: #ffcc00;
+    /* Color del ícono cuando está en estado de "like" */
+}
+
+.like-button:focus {
+    outline: none;
+}
+
+.like-count,
+.response-count {
+    font-size: 16px;
+    color: #000;
+    font-weight: semi-bold;
+}
